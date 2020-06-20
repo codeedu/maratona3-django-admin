@@ -4,7 +4,7 @@
 
 ## Descrição
 
-Como iniciar com projeto Django com Docker
+Exemplo de painel administrativo com Django e Docker
 
 ### Para Windows 
 
