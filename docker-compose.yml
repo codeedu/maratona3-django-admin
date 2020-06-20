@@ -3,7 +3,7 @@ version: '3'
 services:
   app:
     build: .
-    container_name: iniciando-django-app
+    container_name: django-admin-app
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/home/django/app
@@ -14,7 +14,7 @@ services:
 
   db:
     image: postgres
-    container_name: iniciando-django-db
+    container_name: django-admin-db
     tty: true
     environment:
       - POSTGRES_DB=iniciando_django
@@ -25,7 +25,7 @@ services:
 
   pgadmin:
     image: dpage/pgadmin4
-    container_name: iniciando-django-pgadmin
+    container_name: django-admin-pgadmin
     tty: true
     environment:
       - PGADMIN_DEFAULT_EMAIL=admin@user.com

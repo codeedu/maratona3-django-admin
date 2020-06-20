@@ -1,0 +1,75 @@
+[
+  {
+    "model": "app.category",
+    "pk": 1,
+    "fields": {
+      "name": "categoria test",
+      "description": null,
+      "is_active": true
+    }
+  },
+  {
+    "model": "app.category",
+    "pk": 2,
+    "fields": {
+      "name": "categoria criada do form",
+      "description": null,
+      "is_active": true
+    }
+  },
+  {
+    "model": "app.category",
+    "pk": 4,
+    "fields": {
+      "name": "nova categoria com descricao",
+      "description": "nova descricao",
+      "is_active": false
+    }
+  },
+  {
+    "model": "app.tag",
+    "pk": 1,
+    "fields": {
+      "name": "nova tag"
+    }
+  },
+  {
+    "model": "app.tag",
+    "pk": 2,
+    "fields": {
+      "name": "nova tag1"
+    }
+  },
+  {
+    "model": "app.tag",
+    "pk": 3,
+    "fields": {
+      "name": "nova tag2"
+    }
+  },
+  {
+    "model": "app.product",
+    "pk": 1,
+    "fields": {
+      "name": "primeiro produto",
+      "price": "100.20",
+      "is_active": true,
+      "category": 2,
+      "tags": []
+    }
+  },
+  {
+    "model": "app.product",
+    "pk": 2,
+    "fields": {
+      "name": "novo produto com tag",
+      "price": "20.20",
+      "is_active": true,
+      "category": 2,
+      "tags": [
+        1,
+        3
+      ]
+    }
+  }
+]
